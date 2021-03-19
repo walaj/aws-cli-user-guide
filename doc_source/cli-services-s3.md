@@ -6,7 +6,7 @@ Before you run any commands, set your default credentials\. For more information
 
 The AWS CLI provides two tiers of commands for accessing Amazon S3:
 + The *s3* tier consists of high\-level commands that simplify performing common tasks, such as creating, manipulating, and deleting objects and buckets\.
-+ The *s3api* tier behaves identically to other AWS services by exposing direct access to all Amazon S3 API operations\. It enables you to carry out advanced operations that might not be possible with the following tier's high\-level commands alone\.
++ The *s3api* tier behaves identically to other AWS services by exposing direct access to all Amazon S3 API operations\. It enables you to carry out advanced operations that might not be possible with the *s3* tier's high\-level commands alone\.
 
 To get a list of all of the commands available in each tier, use the `help` argument with the `aws s3api` or `aws s3` commands\.
 
